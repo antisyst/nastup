@@ -1,0 +1,282 @@
+.custom-showcase-element {
+    height: max-content;  
+    backdrop-filter: brightness(1.2);
+    padding: 0 7%;
+}
+.custom-first-content-show_mvc {
+    height: 87vh;
+}
+.custom-showcase-h1-element {
+  font-size: calc(10px + 6.2vmin);
+  margin: 2vh 0;
+}
+.custom-showcase-p-element {
+  margin: 2vh 0;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 5vh;
+}
+.custom-showcase-p-element svg {
+  font-size: calc(10px + 2.2vmin);
+  vertical-align: bottom;
+}
+.showcase-input-element {
+    outline: none;
+    border: 2px solid var(--var-color-component-white);
+    font-size: 22px;
+    color: var(--var-color-component-white);
+    background: none;
+    border-radius: 10px 0% 0% 10px / 10px 10px 10px 10px ;
+    user-select: none;
+    padding: 15px;
+    transition: all 0.4s ease-out;
+    width: 400px;
+    height: 37px;
+}
+.showcase-input-element:focus::placeholder {
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+.showcase-input-element::placeholder {
+    color: var(--var-color-component-white);
+    user-select: none;
+    transition: all 0.4s ease-out;
+}
+.showcase-button-element {
+    border: 2px solid var(--var-color-component-white);
+    font-family: 'General Sans', sans-serif;
+    padding: 15px;
+    border-radius: 10px 8px 8px 9px / 0 8px 8px 0 ;
+    font-weight: bold;
+    user-select: none;
+    height: 71px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.custom-info-title svg {
+    color: var(--var-color-component-white);
+  font-size: calc(10px + 1.3vmin);
+  vertical-align: bottom;
+  margin-right: 6px;
+}
+.custom-info-title {
+  font-size: calc(10px + 1.12vmin);
+}
+.bottom-showcase-element {
+    margin-top: 7vh;
+}
+.bottom-showcase-element a {
+    padding: 16px 30px;
+    font-size: calc(10px + 1.5vmin); 
+    background: none;
+    user-select: none;
+    color: var(--var-color-component-white);
+    border-radius: 10px;
+    border: 1.6px solid var(--var-color-component-white);
+}
+.scroll-content-showcase {
+    padding-top: 7vh;
+    font-size: calc(10px + 1.3vmin); 
+    animation: scrollFrame 4s ease 0s infinite normal forwards;
+    user-select: none;
+}
+@keyframes scrollFrame {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+    // SEERVICES    
+
+.custom-service-component {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+   }
+   .custom-first-content {
+       font-size: calc(10px + 4vmin);
+       margin-bottom: 10vh;
+   }
+   
+   .custom-services-container_item {
+       margin: 10px;
+       background: #121212;
+       background-color: rgba(0, 0, 0, 0.2);
+       -webkit-backdrop-filter: blur(5px);
+       backdrop-filter: blur(5px);
+       border-radius: 30px;
+       padding: 15px;
+       width: 300px;
+       height: 280px;
+   }
+   .custom-services-container_item svg {
+    font-size: 120px;
+    margin-top: 5px;
+   }
+   .custom-services-container_item h1 {
+    height: 85px;
+    padding: 0 70px;
+    font-size: 38px;
+   }
+
+    // BRANDS
+
+   .brands-corp-item {
+    margin: 12px;
+    font-size: 150px;
+    width: 250px;
+    height: 250px;
+    color: var(--var-color-component-white);
+   }
+   .brands-corp-item svg {
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+   }
+   .brands-corp-item svg:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-out;
+   }
+   .brands-corp-component-container {
+    margin: 10px 5%;
+   }
+
+    // REVIEWS
+    .per-reviews_item {
+        width: 400px;
+        margin: 7px;
+        height: 290px;
+        background-color: rgba(0, 0, 0, 0.2);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        padding: 20px;
+        border-radius: 40px;
+    }
+    .per-reviews_item p {
+        font-size: 19px;
+    }
+    .per-reviews_item svg {
+        color: var(--var-color-component-white);
+        font-size: 90px;
+        padding: 7px;
+    }
+    .person-reviews-component {
+        padding-bottom: 6vh;
+    }
+
+        // TECH
+
+        .tech-stack_item {
+            margin: 7px;
+            width: 200px;
+            background: rgba(0, 0, 0, 0.07);
+            height: 200px;
+            border: 1.2px solid rgba(0, 0, 0, 0.07);
+            border-radius: 10px;
+            transition: all 0.4s ease-out;
+        }
+        .tech-stack_item:hover {
+            border: 1.2px solid var(--var-color-component-white);
+            transition: all 0.4s ease-out;
+        }
+        .tech-stack_item svg {
+            font-size: 80px;
+        }
+        .custom-tech-stack-section-component {
+            margin-bottom: 8vh;
+        }
+        .custom-tech-stack-section-component-container {
+            margin: 2px 4%;
+        }
+
+
+
+    @media only screen and (max-width: 768px) {
+        .custom-showcase-element {
+            height: max-content;  
+            backdrop-filter: brightness(1.2);
+            padding: 0 1.2%;
+        }
+        .showcase-input-element {
+            outline: none;
+            border: 2px solid var(--var-color-component-white);
+            font-size: 18px;
+            color: var(--var-color-component-white);
+            background: none;
+            border-radius: 10px 0% 0% 10px / 10px 10px 10px 10px ;
+            user-select: none;
+            padding: 15px;
+            transition: all 0.4s ease-out;
+            width: 60%;
+            height: 37px;
+        }
+        .showcase-button-element {
+            border: 2px solid var(--var-color-component-white);
+            font-family: 'General Sans', sans-serif;
+            padding: 15px;
+            border-radius: 10px 8px 8px 9px / 0 8px 8px 0 ;
+            font-weight: bold;
+            user-select: none;
+            height: 71px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .custom-first-content {
+            font-size: calc(10px + 7vmin);
+            margin-bottom: 8vh;
+        }
+        .custom-services-container_item {
+            margin: 10px;
+            background: #121212;
+            background-color: rgba(0, 0, 0, 0.2);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            border-radius: 30px;
+            padding: 15px;
+            width: 100%;
+            height: 280px;
+        }
+        .custom-services-container_item h1 {
+            height: 85px;
+            padding: 0 30%;
+            font-size: 38px;
+           }
+           .custom-services-container_item svg {
+            font-size: 100px;
+            margin-top: 5px;
+           }
+           .per-reviews_item {
+            width: 100%;
+            margin: 7px;
+            height: 310px;
+            background-color: rgba(0, 0, 0, 0.2);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            padding: 20px;
+            border-radius: 40px;
+        }
+        .brands-corp-item {
+            margin: 12px;
+            font-size: 120px;
+            width: 250px;
+            height: 250px;
+            color: var(--var-color-component-white);
+           }
+           .custom-tech-stack-section-component-container {
+            margin: 5px 0
+        }
+        .tech-stack_item {
+            margin: 4px;
+            width: 46%;
+            background: rgba(0, 0, 0, 0.07);
+            height: 200px;
+            border-radius: 10px;
+        }
+
+    }

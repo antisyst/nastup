@@ -1,0 +1,59 @@
+.custom-navigation-component svg {
+    width: 230px;
+    stroke: var(--var-color-component-white);
+    fill: var(--var-color-component-white);
+    stroke-width:0.25mm;
+    transition: all 0.4s ease-out;
+    font-size: 9pt;
+    stroke-linecap: round;
+    fill-rule: evenodd;
+}
+.custom-navigation-component svg g {
+    stroke-width:0.25mm;
+    stroke: var(--var-color-component-white);
+    fill: var(--var-color-component-white);
+}
+.custom-navigation-component {
+    padding: 15px 6%;
+    backdrop-filter: brightness(1.2);
+    position: relative;
+}
+.custom-router-element {
+    border-bottom: 2px solid none;
+  font-size: calc(10px + 1.5vmin);
+  user-select: none;
+  transition: all 0.2s ease-out;
+  padding: 5px 0;
+  backdrop-filter: brightness(1.2);
+  margin: 0 20px;
+}
+.custom-router-element:hover {
+    transform: scale(1.02);
+    text-decoration: dotted;
+    border-bottom: 2px solid var(--var-color-component-white);
+}
+
+@media only screen and (max-width: 700px) {
+    .custom-navigation-component svg {
+        width: 160px;
+        stroke: var(--var-color-component-white);
+        fill: var(--var-color-component-white);
+        stroke-width:0.25mm;
+        transition: all 0.4s ease-out;
+        font-size: 9pt;
+        stroke-linecap: round;
+        fill-rule: evenodd;
+    }
+    .custom-router-element {
+        border-bottom: 2px solid none;
+      font-size: calc(10px + 3vmin);
+      user-select: none;
+      transition: all 0.2s ease-out;
+      padding: 5px 0;
+      cursor: none;
+      margin: 0 18px;
+    }
+    .custom-navigation-component svg {
+        cursor: none;
+    }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Gemunu+Libre&family=Josefin+Sans&family=Jost:wght@500&family=Lexend:wght@400;500;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR&family=Open+Sans:wght@400;500;600&family=Oxygen&family=Plus+Jakarta+Sans:wght@800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Prompt&family=Questrial&family=Quicksand:wght@600&family=Roboto+Slab:wght@400;500&family=Tilt+Warp&family=Titillium+Web&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,140 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#0f0e13;
+  height: max-content;
+  background-image: 
+  radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 40%), 
+  radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 70%), 
+  radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 60%);
+  backdrop-filter: brightness(1.2);
+  backdrop-filter: brightness(1.2);
+  overflow: hidden;
 }
 
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ :root {
+  --var-color-component-advanced: rgb(0, 107, 255);
+  --var-color-component-black: #000;
+  --var-color-component-white: #ffff;
+  --var-color-component-third: rgb(11, 53, 88);
+  --var-color-component-primary: rgba(113, 39, 65, 1);
+ }
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+  display: flex;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.color-advanced {
+  color: var(--var-color-component-advanced);
+}
+.color-third {
+  color: var(--var-color-component-third);
+}
+.color-white {
+  color: var(--var-color-component-white);
+}
+.color-black {
+  color: var(--var-color-component-black)
+}
+.bg-advanced {
+  background: var(--var-color-component-advanced);
+}
+.bg-white {
+  background: var(--var-color-component-white);
+}
+.bg-third {
+  background: var(--var-color-component-third);
+}
+.gradient-bg-welcome {
+  background-color:#0f0e13;
+  background-image: 
+  radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 40%), 
+  radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 70%), 
+  radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 60%);
+  backdrop-filter: brightness(1.2);
+}
+@keyframes backFrame {
+	0%,
+	50%,
+	100% {
+    background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 40%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 70%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 60%);
+	}
+
+	25%,
+	75% {
+		background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+	}
+}
+.text-d-no {
+  text-decoration: none;
+}
+ /* FONTS */
+ 
+ .font-poppins {
+  font-family: 'Poppins', sans-serif;
+ }
+ .font-lexend {
+  font-family: 'Lexend', sans-serif;
+ }
+ .font-bold {
+  font-weight: bold;
+ }
+ .font-satoshi {
+  font-family: 'Satoshi', sans-serif;
+ }
+ .font-author {
+  font-family: 'Author', sans-serif;
+ }
+ .font-g-sans {
+  font-family: 'General Sans', sans-serif;
+ }
+ .font-outfit {
+  font-family: 'Outfit', sans-serif;
+ }
+ .m-0 {
+  margin: 0;
+ }
